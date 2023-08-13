@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81693992A1790B7007374B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81693982A1790B7007374B9 /* ProfileViewController.swift */; };
+		D816939B2A1799CC007374B9 /* david-iskander-iWTamkU5kiI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D816939A2A1799CC007374B9 /* david-iskander-iWTamkU5kiI-unsplash.jpg */; };
+		D816939D2A1799D6007374B9 /* lycs-architecture-U2BI3GMnSSE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D816939C2A1799D6007374B9 /* lycs-architecture-U2BI3GMnSSE-unsplash.jpg */; };
+		D816939F2A179AA3007374B9 /* kelly-sikkema--1_RZL8BGBM-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D816939E2A179AA3007374B9 /* kelly-sikkema--1_RZL8BGBM-unsplash.jpg */; };
+		D82736922A7E5E61004DAA20 /* VacanciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82736912A7E5E61004DAA20 /* VacanciesModel.swift */; };
+		D82736942A7E5FFD004DAA20 /* AdvicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82736932A7E5FFD004DAA20 /* AdvicesModel.swift */; };
+		D82DD4D12A00036200CEDBE9 /* IMG_9064.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D82DD4D02A00036200CEDBE9 /* IMG_9064.PNG */; };
+		D82DD4D32A0003FA00CEDBE9 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DD4D22A0003FA00CEDBE9 /* HomePageController.swift */; };
+		D83672D82A0D47AA00E3ABFE /* FabLabAITU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D83672D72A0D47AA00E3ABFE /* FabLabAITU.jpg */; };
+		D83672DA2A0D542600E3ABFE /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83672D92A0D542600E3ABFE /* NewsDetailViewController.swift */; };
+		D83672DC2A0D5E4200E3ABFE /* JobFairAITU.png in Resources */ = {isa = PBXBuildFile; fileRef = D83672DB2A0D5E4100E3ABFE /* JobFairAITU.png */; };
+		D84C9BFD2A25EA94005F24F2 /* glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84C9BFC2A25EA94005F24F2 /* glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg */; };
+		D850835A2A5D47E6003520AF /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85083592A5D47E6003520AF /* PopupView.swift */; };
+		D85591F029F2D99D00004397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85591EF29F2D99D00004397 /* AppDelegate.swift */; };
+		D85591F229F2D99D00004397 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85591F129F2D99D00004397 /* SceneDelegate.swift */; };
+		D85591F729F2D99D00004397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85591F529F2D99D00004397 /* Main.storyboard */; };
+		D85591F929F2D99E00004397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85591F829F2D99E00004397 /* Assets.xcassets */; };
+		D85591FC29F2D99E00004397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85591FA29F2D99E00004397 /* LaunchScreen.storyboard */; };
+		D855920429F2E34D00004397 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D855920329F2E34D00004397 /* GoogleService-Info.plist */; };
+		D85B85412A234E4C001E9DBE /* BeeLine_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D85B85402A234E4B001E9DBE /* BeeLine_logo.png */; };
+		D85B85432A234E53001E9DBE /* epamLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D85B85422A234E53001E9DBE /* epamLogo.png */; };
+		D8672AF629F40DE200590D6B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D8672AF529F40DE200590D6B /* FirebaseAnalytics */; };
+		D8672AF829F40DE200590D6B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D8672AF729F40DE200590D6B /* FirebaseAuth */; };
+		D877E99C2A14E8C1001CDC38 /* VacancyFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877E99B2A14E8C1001CDC38 /* VacancyFilterViewController.swift */; };
+		D8809B672A7FCA2F00785D9E /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8809B662A7FCA2F00785D9E /* NewsModel.swift */; };
+		D89023BE2A0EA99A0098DADE /* HomePageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89023BD2A0EA99A0098DADE /* HomePageDetailViewController.swift */; };
+		D89FA0772A07DF9B00DBCA82 /* HomePageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA0762A07DF9B00DBCA82 /* HomePageCollectionViewModel.swift */; };
+		D8B2FC7A29F5364600162273 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2FC7929F5364600162273 /* CreateAccountViewController.swift */; };
+		D8B2FC7C29F5392800162273 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2FC7B29F5392800162273 /* LoginViewController.swift */; };
+		D8B2FC8029F5628F00162273 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2FC7F29F5628F00162273 /* ForgotPasswordController.swift */; };
+		D8C185A92A017B6200371A95 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C185A82A017B6200371A95 /* TabBarViewController.swift */; };
+		D8C185AB2A02289000371A95 /* photo_2023-05-02 22.12.43.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8C185AA2A02289000371A95 /* photo_2023-05-02 22.12.43.jpeg */; };
+		D8C185AD2A02293D00371A95 /* IMG_9065.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D8C185AC2A02293D00371A95 /* IMG_9065.PNG */; };
+		D8C185B12A022EF500371A95 /* AdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C185B02A022EF500371A95 /* AdvicesViewController.swift */; };
+		D8C185B32A022EFE00371A95 /* VacanciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C185B22A022EFE00371A95 /* VacanciesViewController.swift */; };
+		D8C185B52A022F0500371A95 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C185B42A022F0500371A95 /* NewsViewController.swift */; };
+		D8F642F62A2C88F8006546E1 /* VacancyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F642F52A2C88F8006546E1 /* VacancyDetailViewController.swift */; };
+		D8F6F12E2A2DA4E500C17E8A /* maranda-vandergriff-7aakZdIl4vg-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F6F12D2A2DA4E500C17E8A /* maranda-vandergriff-7aakZdIl4vg-unsplash.jpg */; };
+		D8F6F1302A2DA57D00C17E8A /* markus-winkler-7iSEHWsxPLw-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F6F12F2A2DA57D00C17E8A /* markus-winkler-7iSEHWsxPLw-unsplash.jpg */; };
+		D8F6F1322A2DB6B200C17E8A /* Screenshot 2023-06-05 at 12.15.36.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F6F1312A2DB6B200C17E8A /* Screenshot 2023-06-05 at 12.15.36.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D81693982A1790B7007374B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D816939A2A1799CC007374B9 /* david-iskander-iWTamkU5kiI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "david-iskander-iWTamkU5kiI-unsplash.jpg"; sourceTree = "<group>"; };
+		D816939C2A1799D6007374B9 /* lycs-architecture-U2BI3GMnSSE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lycs-architecture-U2BI3GMnSSE-unsplash.jpg"; sourceTree = "<group>"; };
+		D816939E2A179AA3007374B9 /* kelly-sikkema--1_RZL8BGBM-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kelly-sikkema--1_RZL8BGBM-unsplash.jpg"; sourceTree = "<group>"; };
+		D82736912A7E5E61004DAA20 /* VacanciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesModel.swift; sourceTree = "<group>"; };
+		D82736932A7E5FFD004DAA20 /* AdvicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesModel.swift; sourceTree = "<group>"; };
+		D82DD4D02A00036200CEDBE9 /* IMG_9064.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9064.PNG; sourceTree = "<group>"; };
+		D82DD4D22A0003FA00CEDBE9 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		D83672D72A0D47AA00E3ABFE /* FabLabAITU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FabLabAITU.jpg; sourceTree = "<group>"; };
+		D83672D92A0D542600E3ABFE /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		D83672DB2A0D5E4100E3ABFE /* JobFairAITU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JobFairAITU.png; sourceTree = "<group>"; };
+		D84C9BFC2A25EA94005F24F2 /* glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"; sourceTree = "<group>"; };
+		D85083592A5D47E6003520AF /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		D85591EC29F2D99D00004397 /* AITUcareer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITUcareer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85591EF29F2D99D00004397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85591F129F2D99D00004397 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D85591F629F2D99D00004397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85591F829F2D99E00004397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85591FB29F2D99E00004397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85591FD29F2D99E00004397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D855920329F2E34D00004397 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D85B85402A234E4B001E9DBE /* BeeLine_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeeLine_logo.png; sourceTree = "<group>"; };
+		D85B85422A234E53001E9DBE /* epamLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epamLogo.png; sourceTree = "<group>"; };
+		D877E99B2A14E8C1001CDC38 /* VacancyFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyFilterViewController.swift; sourceTree = "<group>"; };
+		D8809B662A7FCA2F00785D9E /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		D89023BD2A0EA99A0098DADE /* HomePageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageDetailViewController.swift; sourceTree = "<group>"; };
+		D89FA0762A07DF9B00DBCA82 /* HomePageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionViewModel.swift; sourceTree = "<group>"; };
+		D8B2FC7929F5364600162273 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		D8B2FC7B29F5392800162273 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8B2FC7F29F5628F00162273 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		D8C185A82A017B6200371A95 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D8C185AA2A02289000371A95 /* photo_2023-05-02 22.12.43.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo_2023-05-02 22.12.43.jpeg"; sourceTree = "<group>"; };
+		D8C185AC2A02293D00371A95 /* IMG_9065.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_9065.PNG; path = ../../../../../Downloads/IMG_9065.PNG; sourceTree = "<group>"; };
+		D8C185B02A022EF500371A95 /* AdvicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesViewController.swift; sourceTree = "<group>"; };
+		D8C185B22A022EFE00371A95 /* VacanciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesViewController.swift; sourceTree = "<group>"; };
+		D8C185B42A022F0500371A95 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		D8F642F52A2C88F8006546E1 /* VacancyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDetailViewController.swift; sourceTree = "<group>"; };
+		D8F6F12D2A2DA4E500C17E8A /* maranda-vandergriff-7aakZdIl4vg-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maranda-vandergriff-7aakZdIl4vg-unsplash.jpg"; sourceTree = "<group>"; };
+		D8F6F12F2A2DA57D00C17E8A /* markus-winkler-7iSEHWsxPLw-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "markus-winkler-7iSEHWsxPLw-unsplash.jpg"; sourceTree = "<group>"; };
+		D8F6F1312A2DB6B200C17E8A /* Screenshot 2023-06-05 at 12.15.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-06-05 at 12.15.36.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85591E929F2D99D00004397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8672AF629F40DE200590D6B /* FirebaseAnalytics in Frameworks */,
+				D8672AF829F40DE200590D6B /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82736902A7E5D1A004DAA20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8809B662A7FCA2F00785D9E /* NewsModel.swift */,
+				D82736932A7E5FFD004DAA20 /* AdvicesModel.swift */,
+				D82736912A7E5E61004DAA20 /* VacanciesModel.swift */,
+				D89FA0762A07DF9B00DBCA82 /* HomePageCollectionViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D82DD4CD2A00033100CEDBE9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6F1312A2DB6B200C17E8A /* Screenshot 2023-06-05 at 12.15.36.png */,
+				D8F6F12F2A2DA57D00C17E8A /* markus-winkler-7iSEHWsxPLw-unsplash.jpg */,
+				D8F6F12D2A2DA4E500C17E8A /* maranda-vandergriff-7aakZdIl4vg-unsplash.jpg */,
+				D84C9BFC2A25EA94005F24F2 /* glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg */,
+				D85B85422A234E53001E9DBE /* epamLogo.png */,
+				D85B85402A234E4B001E9DBE /* BeeLine_logo.png */,
+				D816939E2A179AA3007374B9 /* kelly-sikkema--1_RZL8BGBM-unsplash.jpg */,
+				D816939C2A1799D6007374B9 /* lycs-architecture-U2BI3GMnSSE-unsplash.jpg */,
+				D816939A2A1799CC007374B9 /* david-iskander-iWTamkU5kiI-unsplash.jpg */,
+				D83672DB2A0D5E4100E3ABFE /* JobFairAITU.png */,
+				D83672D72A0D47AA00E3ABFE /* FabLabAITU.jpg */,
+				D8C185AA2A02289000371A95 /* photo_2023-05-02 22.12.43.jpeg */,
+				D82DD4D02A00036200CEDBE9 /* IMG_9064.PNG */,
+				D8C185AC2A02293D00371A95 /* IMG_9065.PNG */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D85591E329F2D99D00004397 = {
+			isa = PBXGroup;
+			children = (
+				D85591EE29F2D99D00004397 /* AITUcareer */,
+				D85591ED29F2D99D00004397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85591ED29F2D99D00004397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85591EC29F2D99D00004397 /* AITUcareer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85591EE29F2D99D00004397 /* AITUcareer */ = {
+			isa = PBXGroup;
+			children = (
+				D8809B692A7FCB7600785D9E /* Application */,
+				D82736902A7E5D1A004DAA20 /* Models */,
+				D8EFF3012A8907060012BC98 /* Controllers */,
+				D8EFF3022A89070D0012BC98 /* Views */,
+				D85591F829F2D99E00004397 /* Assets.xcassets */,
+				D82DD4CD2A00033100CEDBE9 /* images */,
+				D85591F529F2D99D00004397 /* Main.storyboard */,
+				D85591FA29F2D99E00004397 /* LaunchScreen.storyboard */,
+				D85591FD29F2D99E00004397 /* Info.plist */,
+				D855920329F2E34D00004397 /* GoogleService-Info.plist */,
+			);
+			path = AITUcareer;
+			sourceTree = "<group>";
+		};
+		D8809B692A7FCB7600785D9E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D85591EF29F2D99D00004397 /* AppDelegate.swift */,
+				D85591F129F2D99D00004397 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D8EFF3012A8907060012BC98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D81693982A1790B7007374B9 /* ProfileViewController.swift */,
+				D8F642F52A2C88F8006546E1 /* VacancyDetailViewController.swift */,
+				D8C185B22A022EFE00371A95 /* VacanciesViewController.swift */,
+				D83672D92A0D542600E3ABFE /* NewsDetailViewController.swift */,
+				D89023BD2A0EA99A0098DADE /* HomePageDetailViewController.swift */,
+				D8B2FC7929F5364600162273 /* CreateAccountViewController.swift */,
+				D8B2FC7B29F5392800162273 /* LoginViewController.swift */,
+				D8B2FC7F29F5628F00162273 /* ForgotPasswordController.swift */,
+				D82DD4D22A0003FA00CEDBE9 /* HomePageController.swift */,
+				D8C185A82A017B6200371A95 /* TabBarViewController.swift */,
+				D8C185B02A022EF500371A95 /* AdvicesViewController.swift */,
+				D877E99B2A14E8C1001CDC38 /* VacancyFilterViewController.swift */,
+				D8C185B42A022F0500371A95 /* NewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8EFF3022A89070D0012BC98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D85083592A5D47E6003520AF /* PopupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85591EB29F2D99D00004397 /* AITUcareer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D855920029F2D99E00004397 /* Build configuration list for PBXNativeTarget "AITUcareer" */;
+			buildPhases = (
+				D85591E829F2D99D00004397 /* Sources */,
+				D85591E929F2D99D00004397 /* Frameworks */,
+				D85591EA29F2D99D00004397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AITUcareer;
+			packageProductDependencies = (
+				D8672AF529F40DE200590D6B /* FirebaseAnalytics */,
+				D8672AF729F40DE200590D6B /* FirebaseAuth */,
+			);
+			productName = AITUcareer;
+			productReference = D85591EC29F2D99D00004397 /* AITUcareer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85591E429F2D99D00004397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D85591EB29F2D99D00004397 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D85591E729F2D99D00004397 /* Build configuration list for PBXProject "AITUcareer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85591E329F2D99D00004397;
+			packageReferences = (
+				D8672AF429F40DE200590D6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D85591ED29F2D99D00004397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85591EB29F2D99D00004397 /* AITUcareer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85591EA29F2D99D00004397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83672D82A0D47AA00E3ABFE /* FabLabAITU.jpg in Resources */,
+				D85B85412A234E4C001E9DBE /* BeeLine_logo.png in Resources */,
+				D85591FC29F2D99E00004397 /* LaunchScreen.storyboard in Resources */,
+				D8F6F1302A2DA57D00C17E8A /* markus-winkler-7iSEHWsxPLw-unsplash.jpg in Resources */,
+				D816939D2A1799D6007374B9 /* lycs-architecture-U2BI3GMnSSE-unsplash.jpg in Resources */,
+				D816939B2A1799CC007374B9 /* david-iskander-iWTamkU5kiI-unsplash.jpg in Resources */,
+				D8C185AD2A02293D00371A95 /* IMG_9065.PNG in Resources */,
+				D8C185AB2A02289000371A95 /* photo_2023-05-02 22.12.43.jpeg in Resources */,
+				D85B85432A234E53001E9DBE /* epamLogo.png in Resources */,
+				D82DD4D12A00036200CEDBE9 /* IMG_9064.PNG in Resources */,
+				D855920429F2E34D00004397 /* GoogleService-Info.plist in Resources */,
+				D8F6F12E2A2DA4E500C17E8A /* maranda-vandergriff-7aakZdIl4vg-unsplash.jpg in Resources */,
+				D83672DC2A0D5E4200E3ABFE /* JobFairAITU.png in Resources */,
+				D8F6F1322A2DB6B200C17E8A /* Screenshot 2023-06-05 at 12.15.36.png in Resources */,
+				D816939F2A179AA3007374B9 /* kelly-sikkema--1_RZL8BGBM-unsplash.jpg in Resources */,
+				D85591F929F2D99E00004397 /* Assets.xcassets in Resources */,
+				D84C9BFD2A25EA94005F24F2 /* glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg in Resources */,
+				D85591F729F2D99D00004397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85591E829F2D99D00004397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C185A92A017B6200371A95 /* TabBarViewController.swift in Sources */,
+				D8C185B32A022EFE00371A95 /* VacanciesViewController.swift in Sources */,
+				D877E99C2A14E8C1001CDC38 /* VacancyFilterViewController.swift in Sources */,
+				D8B2FC7A29F5364600162273 /* CreateAccountViewController.swift in Sources */,
+				D8809B672A7FCA2F00785D9E /* NewsModel.swift in Sources */,
+				D8C185B52A022F0500371A95 /* NewsViewController.swift in Sources */,
+				D82DD4D32A0003FA00CEDBE9 /* HomePageController.swift in Sources */,
+				D82736942A7E5FFD004DAA20 /* AdvicesModel.swift in Sources */,
+				D81693992A1790B7007374B9 /* ProfileViewController.swift in Sources */,
+				D82736922A7E5E61004DAA20 /* VacanciesModel.swift in Sources */,
+				D8C185B12A022EF500371A95 /* AdvicesViewController.swift in Sources */,
+				D850835A2A5D47E6003520AF /* PopupView.swift in Sources */,
+				D89023BE2A0EA99A0098DADE /* HomePageDetailViewController.swift in Sources */,
+				D8B2FC8029F5628F00162273 /* ForgotPasswordController.swift in Sources */,
+				D8F642F62A2C88F8006546E1 /* VacancyDetailViewController.swift in Sources */,
+				D85591F029F2D99D00004397 /* AppDelegate.swift in Sources */,
+				D89FA0772A07DF9B00DBCA82 /* HomePageCollectionViewModel.swift in Sources */,
+				D83672DA2A0D542600E3ABFE /* NewsDetailViewController.swift in Sources */,
+				D8B2FC7C29F5392800162273 /* LoginViewController.swift in Sources */,
+				D85591F229F2D99D00004397 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D85591F529F2D99D00004397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85591F629F2D99D00004397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85591FA29F2D99E00004397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85591FB29F2D99E00004397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85591FE29F2D99E00004397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85591FF29F2D99E00004397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D855920129F2D99E00004397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GR8US969Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AITUcareer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AITUcareer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D855920229F2D99E00004397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GR8US969Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AITUcareer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AITUcareer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85591E729F2D99D00004397 /* Build configuration list for PBXProject "AITUcareer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85591FE29F2D99E00004397 /* Debug */,
+				D85591FF29F2D99E00004397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D855920029F2D99E00004397 /* Build configuration list for PBXNativeTarget "AITUcareer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D855920129F2D99E00004397 /* Debug */,
+				D855920229F2D99E00004397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8672AF429F40DE200590D6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8672AF529F40DE200590D6B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8672AF429F40DE200590D6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D8672AF729F40DE200590D6B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8672AF429F40DE200590D6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D85591E429F2D99D00004397 /* Project object */;
+}
